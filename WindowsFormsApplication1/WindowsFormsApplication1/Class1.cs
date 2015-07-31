@@ -11,7 +11,11 @@ namespace WindowsFormsApplication1
 
         public void lol()
         {
+<<<<<<< HEAD
         christ
+=======
+            Tobias
+>>>>>>> origin/master
         }
     }
 }
