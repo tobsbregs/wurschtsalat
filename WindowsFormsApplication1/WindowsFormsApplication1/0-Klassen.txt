@@ -36,7 +36,6 @@ GAKNOTEN
 GAMOBILE
 	-Canvas
 	-ZeichneMich()
-
 DATEN
 	CONTROLER
 	-KANTEN[]
