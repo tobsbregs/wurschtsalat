@@ -1,23 +1,23 @@
-﻿KNOTEN
+﻿C.KNOTEN
 	-Controler
 	-Konstruktor
 	-Eigenschaftsliste[]
 	-KANTEN[]
 	-GET/SET Methoden
 	-informControler()
-KANTEN
+T.KANTEN
 	-Controler
 	-Konstruktor
 	-Eigenschaftsliste[]
 	-GET/SET Methoden
 	-informControler()
-MOBILE
+T.MOBILE
 	-Controler
 	-Konstruktor
 	-Eigenschaftsliste[]
 	-GET/SET Methoden
 	-informControler()
-CONTROLER
+C/T.CONTROLER
 	-DATEN
 	-MODULE[]
 	-Operationen (Speichern, Öffnen, Neu, Versenden...)
@@ -27,16 +27,16 @@ CANVAS(M)
 	-GAKN[]
 	-GAMO[]
 	-Zeichnet alle Objekte 
-GAKANTEN
+C.GAKANTEN
 	-Canvas
 	-ZeichneMich()
-GAKNOTEN
+T.GAKNOTEN
 	-Canvas
 	-ZeichneMich()
 GAMOBILE
 	-Canvas
 	-ZeichneMich()
-DATEN
+C/T.DATEN
 	CONTROLER
 	-KANTEN[]
 	-KNOTEN[]
