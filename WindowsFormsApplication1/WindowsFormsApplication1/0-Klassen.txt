@@ -1,1 +1,51 @@
-﻿
+﻿KNOTEN
+	-Controler
+	-Konstruktor
+	-Eigenschaftsliste[]
+	-KANTEN[]
+	-GET/SET Methoden
+	-informControler()
+KANTEN
+	-Controler
+	-Konstruktor
+	-Eigenschaftsliste[]
+	-GET/SET Methoden
+	-informControler()
+MOBILE
+	-Controler
+	-Konstruktor
+	-Eigenschaftsliste[]
+	-GET/SET Methoden
+	-informControler()
+CONTROLER
+	-DATEN
+	-MODULE[]
+	-Operationen (Speichern, Öffnen, Neu, Versenden...)
+CANVAS(M)
+	-Controler
+	-GAKA[]
+	-GAKN[]
+	-GAMO[]
+	-Zeichnet alle Objekte 
+GAKANTEN
+	-Canvas
+	-ZeichneMich()
+GAKNOTEN
+	-Canvas
+	-ZeichneMich()
+GAMOBILE
+	-Canvas
+	-ZeichneMich()
+
+DATEN
+	CONTROLER
+	-KANTEN[]
+	-KNOTEN[]
+	-MOBILE[]
+	-Einstellungen
+	-GET/SET Methoden
+GUI
+	CANVAS
+	Benutzerfenster
+	-> Übermittelt Benutzereingaben an den Controler und der an DATEN und die MODULE
+	
