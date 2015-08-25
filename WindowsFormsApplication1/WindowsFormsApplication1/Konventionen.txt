@@ -1,0 +1,2 @@
+﻿Auflistung der Indizes bei CONTROLER.laufzeitdata
+0: Aktuelle ID bei der Erstellung neuer Objekte. Init: 1
