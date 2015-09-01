@@ -24,8 +24,11 @@ namespace WindowsFormsApplication1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            KANTEN a = new KANTEN();
-            a.
+            
+            CONTROLER k = new CONTROLER();
+            Console.WriteLine(k.GetID());
+
+          
         }
     }
 }
